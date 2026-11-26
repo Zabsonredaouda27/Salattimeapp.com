@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Ipage27</ShortName>
+  <Description>Search breaking news, official online tools, verified promo codes, live sports scores, daily tech &amp; finance guides, and streaming directories on Ipage27 (salattimeapp.com).</Description>
+  <Tags>ipage27 news trends tools promo codes sports tech ai finance</Tags>
+  <Image width="16" height="16" type="image/x-icon">https://salattimeapp.com/favicon.ico</Image>
+  <Image width="192" height="192" type="image/png">https://salattimeapp.com/pwa-192x192.png</Image>
+  <Url type="text/html" method="get" template="https://salattimeapp.com/?q={searchTerms}" />
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+</OpenSearchDescription>

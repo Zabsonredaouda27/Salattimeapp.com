@@ -18269,6 +18269,1163 @@ var Footer = ({ onSelectCategory, onOpenSEOInspector, onSelectHub }) => {
 var ARTICLE_IMAGES = new Proxy({}, { get: (_target, prop) => `imgkey://${String(prop)}` });
 var RAW_INITIAL_ARTICLES = [
 	{
+		"id": "trend-2026-665",
+		"slug": "elon-musk-spacex-2-shares-gift-every-american-child-18-billion-thanksgiving-2026",
+		"trendQuery": "elon musk spacex gift american child",
+		"broadTrends": [
+			"elon musk spacex gift every american child",
+			"elon musk 2 shares spacex stock 18 billion thanksgiving 2026",
+			"spacex 142 million shares kids investment accounts trump accounts",
+			"elon musk extra share spacex every year pledge",
+			"gwynne shotwell 2 million spacex shares children gift"
+		],
+		"searchVolume": "34.8M+ monthly searches",
+		"category": "Tech & Finance",
+		"categoryTag": "economy",
+		"emojiType": "fire",
+		"isBreaking": true,
+		"title": "Elon Musk & SpaceX Announce Historic $18 Billion Thanksgiving Gift: 2 SpaceX Shares for Every Eligible American Child — Plus 1 Share Every Year",
+		"shortExcerpt": "In an unprecedented $18B+ Thanksgiving pledge covering roughly 70 million U.S. minors, SpaceX will issue one Class A share per child and Elon Musk will personally match it with a second share—plus a promise to gift another share every single year.",
+		"summary": "Elon Musk and SpaceX have unveiled a historic $18 billion Thanksgiving 2026 initiative to gift two shares of SpaceX stock to every eligible child under 18 in the United States. Covering roughly 70 million American minors (approximately 142 million shares valued at $18 billion to $18.35 billion at roughly $127–$130 per share), SpaceX will contribute one newly issued Class A share beginning in December 2026 and Musk will personally match it with a second share after his lockup expires in June 2027—alongside an extra annual pledge of one share every year and over 2 million additional personal shares donated by SpaceX President Gwynne Shotwell.",
+		"officialLinks": [
+			{
+				"label": "SpaceX Official Updates & Announcement",
+				"url": "https://www.spacex.com/",
+				"platform": "spacex.com",
+				"badge": "Official SpaceX",
+				"description": "Read SpaceX's official Class A share contribution details and mission updates.",
+				"primary": true
+			},
+			{
+				"label": "U.S. Department of the Treasury Portal",
+				"url": "https://home.treasury.gov/",
+				"platform": "home.treasury.gov",
+				"badge": "Official Treasury",
+				"description": "Verify official federal guidance on tax-advantaged youth investment accounts (Trump Accounts)."
+			},
+			{
+				"label": "IRS Official Tax-Advantaged Account Guidance",
+				"url": "https://www.irs.gov/",
+				"platform": "irs.gov",
+				"badge": "IRS Official",
+				"description": "Check official rules on child investment account activation and tax treatment."
+			}
+		],
+		"fullArticle": {
+			"lead": "Valued at roughly $18 billion and reaching an estimated 70 million young Americans, Elon Musk and SpaceX's Thanksgiving announcement instantly creates the largest youth shareholder base in financial history.",
+			"sections": [{
+				"heading": "1. How the 2-Share SpaceX Thanksgiving Gift Breaks Down",
+				"body": "The landmark pledge totals approximately 142 million SpaceX Class A shares—worth roughly $18 billion to $18.35 billion based on SpaceX's ~$127–$130 share price at the time of announcement. SpaceX itself is issuing and contributing one Class A share to every active eligible child's investment account starting in December 2026. Elon Musk is personally matching that corporate contribution with a second share from his own holdings, scheduled to transfer once his stock lockup expires in June 2027. Adding even more firepower, SpaceX President and COO Gwynne Shotwell separately pledged more than 2 million of her own personal SpaceX shares."
+			}, {
+				"heading": "2. The Annual Follow-Up Promise & Long-Term Wealth Vision",
+				"body": "Hours after unveiling the initial two-share Thanksgiving gift, Musk went even further—promising to gift an additional share of SpaceX stock to every eligible American child every single year going forward. The shares flow directly into government-backed, tax-advantaged youth investment accounts (Trump Accounts) designed to compound long-term household wealth over decades. Musk urged families and young recipients to hold onto their shares as SpaceX expands Starlink, Starship, and its newly FCC-approved space-based AI data center constellation."
+			}],
+			"takeaways": [
+				"Total Gift Size: Roughly 142 million SpaceX shares valued at ~$18B–$18.35B (~$127–$130/share) targeting ~70M eligible U.S. children under 18.",
+				"1 + 1 Match: SpaceX contributes 1 newly issued Class A share (transferring Dec 2026) and Elon Musk personally matches 1 share (transferring June 2027 post-lockup).",
+				"Annual Promise: Musk pledged to donate 1 additional SpaceX share to every eligible child every single year.",
+				"Extra Executive Gift: SpaceX President & COO Gwynne Shotwell pledged over 2 million additional personal SpaceX shares."
+			],
+			"expertQuote": {
+				"text": "Putting two SpaceX shares—plus a promised annual share—into 70 million children's investment accounts transforms an entire generation of young Americans into direct stakeholders in the space economy.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:40:00Z",
+		"updatedAt": "2026-11-27T21:40:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["elon-musk-spacex-gift"],
+		"imageCaption": "Elon Musk announced a historic ~$18 billion Thanksgiving gift of 2 SpaceX shares—plus 1 share every year—for every eligible American child.",
+		"metaTitle": "Elon Musk Gifts 2 SpaceX Shares to Every American Child ($18B)",
+		"metaDescription": "Elon Musk and SpaceX announced an $18B Thanksgiving gift: 2 shares of SpaceX stock for every eligible U.S. child plus 1 share every year into kids' investment accounts.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-664",
+		"slug": "how-to-claim-elon-musk-free-spacex-stock-kids-trump-accounts-eligibility-2026",
+		"trendQuery": "how to claim elon musk spacex shares",
+		"broadTrends": [
+			"how to claim elon musk spacex shares for child",
+			"spacex stock gift eligibility requirements under 18 ssn",
+			"how to activate trump account for free spacex stock",
+			"when will spacex shares be deposited december 2026 june 2027",
+			"avoid fake spacex stock giveaway scams parents guide"
+		],
+		"searchVolume": "29.4M+ monthly searches",
+		"category": "Tech & Finance",
+		"categoryTag": "economy",
+		"emojiType": "money",
+		"isBreaking": true,
+		"title": "How to Claim Your Child's 2 Free SpaceX Shares: Eligibility Rules, Active Account Checklist & Deposit Dates (Dec 2026–June 2027)",
+		"shortExcerpt": "SpaceX will only deposit free Class A shares into active youth investment accounts. Here are the exact age, SSN, and guardian activation steps parents must complete—and how to avoid lookalike scams.",
+		"summary": "Parents across the United States are rushing to confirm how their children can receive the two free SpaceX shares announced by Elon Musk for Thanksgiving 2026. To qualify, a child must be a U.S. minor under 18 with a valid Social Security Number and an actively verified Trump Account (federal tax-advantaged child investment account). Because SpaceX's first share begins transferring in December 2026—followed by Musk's personal matched share after his lockup ends in June 2027—guardians must formally activate provisional accounts through official Treasury-approved channels and steer clear of third-party phishing sites.",
+		"officialLinks": [
+			{
+				"label": "U.S. Treasury Official Guidance & Updates",
+				"url": "https://home.treasury.gov/",
+				"platform": "home.treasury.gov",
+				"badge": "Official Federal",
+				"description": "Always verify official Trump Account enrollment portals directly through .gov federal pages.",
+				"primary": true
+			},
+			{
+				"label": "IRS Official Youth Investment Account Rules",
+				"url": "https://www.irs.gov/",
+				"platform": "irs.gov",
+				"badge": "IRS Verified",
+				"description": "Review official documentation requirements and T.D. 10056 regulatory updates."
+			},
+			{
+				"label": "FTC Scam & Fraud Protection Alerts",
+				"url": "https://consumer.ftc.gov/",
+				"platform": "consumer.ftc.gov",
+				"badge": "Scam Safety",
+				"description": "Learn how to spot fake social media stock-claim links and protect your child's SSN."
+			}
+		],
+		"fullArticle": {
+			"lead": "Millions of children were provisionally registered for federal youth investment accounts—but parents must complete one crucial activation step before SpaceX shares can actually land.",
+			"sections": [{
+				"heading": "1. Three Core Eligibility Requirements Every Parent Must Check",
+				"body": "Under the announced distribution framework, an eligible recipient must meet three straightforward criteria: (1) be a U.S. minor under the age of 18, (2) hold a valid U.S. Social Security Number (SSN), and (3) have an active—not merely provisional—Trump Account. SpaceX explicitly indicated that corporate Class A shares will be routed into active accounts, making guardian verification essential ahead of the December 2026 corporate rollout and ahead of Elon Musk's personal matched share transfer in June 2027."
+			}, {
+				"heading": "2. Step-by-Step Activation & Protecting Your Family From Fake Claim Sites",
+				"body": "To activate an account safely, parents or legal guardians should navigate exclusively through official U.S. Treasury (.gov) links or their designated regulated financial custodian—never through sponsored social media ads or unsolicited text messages. Prepare guardianship proof and your child's SSN to confirm 'Active' status. Remember: claiming the SpaceX corporate gift and Elon Musk's personal match requires ZERO upfront fees, crypto deposits, or credit card payments."
+			}],
+			"takeaways": [
+				"Who Qualifies: U.S. minors under 18 with a valid Social Security Number and an ACTIVE Trump Account.",
+				"Share #1 (SpaceX Corporate Share): Scheduled to begin transferring to active accounts in December 2026.",
+				"Share #2 (Elon Musk Personal Match): Scheduled to transfer after Musk's stock lockup expires in June 2027.",
+				"Scam Warning: Only use official .gov Treasury or verified custodian portals—never pay a fee or enter an SSN on unofficial giveaway sites."
+			],
+			"expertQuote": {
+				"text": "The single most important move for parents right now is verifying that a child's investment account is officially active—while ignoring every unofficial link promising instant SpaceX stock.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:35:00Z",
+		"updatedAt": "2026-11-27T21:35:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["elon-musk-spacex-gift"],
+		"imageCaption": "Parents must confirm their child's under-18 Trump Account is formally active via official channels to receive the 2 free SpaceX shares.",
+		"metaTitle": "How to Claim Free SpaceX Stock for Kids: Eligibility & Dates",
+		"metaDescription": "Step-by-step guide to claiming Elon Musk's 2 free SpaceX shares for eligible U.S. children under 18: SSN rules, active Trump Account steps, Dec 2026 & June 2027 dates.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-663",
+		"slug": "elon-musk-annual-spacex-share-every-year-long-term-wealth-calculator-kids-2026",
+		"trendQuery": "spacex stock gift kids wealth value",
+		"broadTrends": [
+			"how much is 2 shares of spacex stock worth 2026",
+			"elon musk 1 spacex share every year long term value",
+			"kids investment account compounding spacex stock age 18",
+			"spacex share price 127 130 dollars thanksgiving gift math",
+			"building generational wealth with kids custodial accounts"
+		],
+		"searchVolume": "16.5M+ monthly searches",
+		"category": "Economy & Markets",
+		"categoryTag": "economy",
+		"emojiType": "chart",
+		"isBreaking": true,
+		"title": "What Could 2 SpaceX Shares + 1 Share Every Year Be Worth by Age 18? Breaking Down the Long-Term Wealth Math for American Kids",
+		"shortExcerpt": "Starting at ~$255–$260 today, a newborn receiving 2 SpaceX shares plus Elon Musk's promised annual share could accumulate up to 19 shares by age 18 inside a tax-advantaged account—here's how compounding works.",
+		"summary": "At roughly $127 to $130 per share, Elon Musk and SpaceX's initial two-share Thanksgiving gift starts at approximately $254 to $260 per child—a modest beginning that becomes far more powerful when paired with Musk's follow-up promise to gift one additional SpaceX share every single year. Over an 18-year horizon inside a tax-advantaged youth investment account, a newborn could accumulate 19 full shares before adulthood, giving millions of families first-time exposure to long-term equity compounding.",
+		"officialLinks": [
+			{
+				"label": "SEC Investor.gov Compound Interest Calculator",
+				"url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+				"platform": "investor.gov",
+				"badge": "Official SEC Tool",
+				"description": "Model 10-year and 18-year tax-advantaged compounding scenarios using the official U.S. SEC calculator.",
+				"primary": true
+			},
+			{
+				"label": "SpaceX Official Company Overview",
+				"url": "https://www.spacex.com/",
+				"platform": "spacex.com",
+				"badge": "SpaceX Official",
+				"description": "Track Starship, Starlink, and SpaceX's long-term multiplanetary roadmap."
+			},
+			{
+				"label": "U.S. Treasury Youth Savings Guidance",
+				"url": "https://home.treasury.gov/",
+				"platform": "home.treasury.gov",
+				"badge": "Treasury Info",
+				"description": "Review official contribution rules and tax advantages for kids' investment accounts."
+			}
+		],
+		"fullArticle": {
+			"lead": "Two shares of SpaceX worth roughly $260 today may sound like a single holiday gift—until you multiply them by 18 years of annual share additions and tax-advantaged compounding.",
+			"sections": [{
+				"heading": "1. The Share-Count Math: Why the '1 Share Every Year' Pledge Changes Everything",
+				"body": "At SpaceX's ~$127–$130 valuation, the initial 1-plus-1 Thanksgiving grant puts roughly $254–$260 of aerospace and AI-infrastructure equity into an eligible child's account. If Musk fulfills his pledge to add one additional SpaceX share each year, a child born in 2026 would collect 2 shares initially plus 17 more annual shares—totaling 19 shares by age 18. Even at a conservative flat share price, 19 shares represent nearly $2,500 in gifted principal; at a hypothetical 10% to 15% annualized growth rate over 18 years, the position could grow into a five-figure launchpad for college, trade school, or a first home.",
+				"imageUrl": ARTICLE_IMAGES["elon-musk-spacex-gift"],
+				"imageCaption": "Elon Musk urged young SpaceX shareholders to hold long-term inside their tax-advantaged investment accounts."
+			}, {
+				"heading": "2. Why Financial Educators Call This a Generational Turning Point",
+				"body": "Historically, nearly half of U.S. households have held little or no direct stock-market equity. Placing high-profile SpaceX shares into roughly 70 million children's accounts introduces financial literacy—share ownership, market volatility, lockup periods, and compound growth—to kitchen tables nationwide. While single-stock concentration always carries market risk compared with diversified index funds, pairing gifted SpaceX shares with regular index contributions creates a compelling long-term wealth habit."
+			}],
+			"takeaways": [
+				"Starting Value: 2 SpaceX shares equal roughly $254–$260 today (based on ~$127–$130 per share).",
+				"Annual Multiplier: Adding 1 share per year could give a newborn up to 19 total SpaceX shares by age 18.",
+				"Tax-Advantaged Growth: Holding shares inside kids' investment accounts lets gains compound without annual dividend or capital-gains drag.",
+				"Risk Reminder: Single stocks can fluctuate sharply—financial planners recommend pairing gifted shares with broad index funds over time."
+			],
+			"expertQuote": {
+				"text": "The true power of Musk's pledge isn't just $260 on Thanksgiving Day—it's giving 70 million kids an 18-year front-row lesson in how ownership and compounding build real wealth.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:30:00Z",
+		"updatedAt": "2026-11-27T21:30:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["stock-market-rally"],
+		"imageCaption": "Compound growth inside tax-advantaged youth accounts could turn Elon Musk's 2-share SpaceX gift plus annual shares into a meaningful age-18 nest egg.",
+		"metaTitle": "SpaceX Kids Stock Gift Value: What 2 Shares + 1/Year Could Worth",
+		"metaDescription": "Breaking down the long-term wealth math behind Elon Musk's 2-share SpaceX gift (~$260 today) plus 1 extra share every year inside kids' tax-advantaged accounts.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-662",
+		"slug": "spacex-stock-price-127-130-fcc-1-million-satellite-ai-data-center-approval-2026",
+		"trendQuery": "spacex stock price fcc 1 million satellites",
+		"broadTrends": [
+			"spacex stock price 127 130 november 2026",
+			"fcc approves spacex 1 million satellites orbital ai data centers",
+			"spacex 142 million shares float june 2027 lockup expiration",
+			"elon musk space based ai computing infrastructure spacex",
+			"how spacex thanksgiving gift impacts retail shareholders"
+		],
+		"searchVolume": "14.2M+ monthly searches",
+		"category": "Tech & Markets",
+		"categoryTag": "tech",
+		"emojiType": "robot",
+		"isBreaking": true,
+		"title": "Inside SpaceX's Twin Bombshells: FCC Clears 1-Million-Satellite Orbital AI Data Centers Right Before $18B Stock Gift",
+		"shortExcerpt": "Elon Musk's $18B Thanksgiving share giveaway didn't happen in a vacuum—it landed immediately after the FCC authorized SpaceX's historic 1-million-satellite space-based AI computing network.",
+		"summary": "SpaceX's $18 billion stock giveaway to American children arrived directly on the heels of one of the biggest regulatory victories in aerospace history: Federal Communications Commission (FCC) approval for SpaceX to deploy an unprecedented constellation of one million satellites powering orbital AI data centers and space-based computing. Wall Street analysts say combining that regulatory milestone with a 142-million-share distribution (~$127–$130/share) builds an unmatched multi-generational retail shareholder moat ahead of Musk's June 2027 lockup expiration.",
+		"officialLinks": [
+			{
+				"label": "FCC Official Space & Satellite Filings",
+				"url": "https://www.fcc.gov/",
+				"platform": "fcc.gov",
+				"badge": "FCC Official",
+				"description": "Access official Federal Communications Commission satellite authorizations and spectrum filings.",
+				"primary": true
+			},
+			{
+				"label": "SpaceX Starlink & Orbital Infrastructure",
+				"url": "https://www.spacex.com/",
+				"platform": "spacex.com",
+				"badge": "SpaceX Official",
+				"description": "Follow SpaceX's Starship launch cadence and next-generation satellite deployments."
+			},
+			{
+				"label": "SEC EDGAR Public Company Filings",
+				"url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+				"platform": "sec.gov",
+				"badge": "SEC Filings",
+				"description": "Review official Class A share disclosures, lockup schedules, and corporate filings."
+			}
+		],
+		"fullArticle": {
+			"lead": "Two monumental headlines in the same week—a 1-million-satellite FCC green light for orbital AI computing and an $18 billion stock gift to 70 million kids—just reshaped the future of both Wall Street and the space economy.",
+			"sections": [{
+				"heading": "1. Why the FCC's 1-Million-Satellite AI Data Center Approval Matters",
+				"body": "Terrestrial AI data centers face severe power-grid bottlenecks, water-cooling limits, and land constraints. By winning FCC authorization for a massive one-million-satellite constellation engineered for orbital AI compute and solar-powered data processing, SpaceX positioned itself at the center of the next decade's artificial intelligence infrastructure boom—using Starship's low-cost heavy-lift capacity to build compute clusters above the atmosphere."
+			}, {
+				"heading": "2. Wall Street's Take on the 142M-Share Float & June 2027 Lockup",
+				"body": "Financial strategists noted the brilliant symmetry behind the Thanksgiving timing. Issuing one corporate Class A share per eligible child in December 2026—followed by Elon Musk's personal 1-for-1 share match after his lockup expires in June 2027—distributes roughly 142 million shares into sticky, long-term youth accounts unlikely to trade on day-to-day headlines. That creates an ultra-loyal retail shareholder base aligned with SpaceX's multi-decade growth trajectory."
+			}],
+			"takeaways": [
+				"Regulatory Catalyst: The FCC granted SpaceX landmark approval for a 1-million-satellite constellation supporting space-based AI data centers.",
+				"Valuation Context: SpaceX's ~$127–$130 share price places the 142M-share giveaway at ~$18B–$18.35B.",
+				"Market Structure: Shares placed in long-term youth accounts build a durable, multi-generational retail shareholder base.",
+				"Key Dates: Corporate Class A shares begin transferring in December 2026; Musk's lockup expires in June 2027."
+			],
+			"expertQuote": {
+				"text": "Securing FCC clearance for orbital AI data centers and immediately turning 70 million young Americans into SpaceX shareholders is the boldest strategic one-two punch Wall Street has seen in years.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:25:00Z",
+		"updatedAt": "2026-11-27T21:25:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["nasa-sls-rocket-hole"],
+		"imageCaption": "FCC approval for SpaceX's 1-million-satellite orbital AI computing constellation preceded the historic $18B Thanksgiving stock giveaway.",
+		"metaTitle": "SpaceX Stock & FCC 1M-Satellite AI Approval: $18B Gift Analysis",
+		"metaDescription": "How SpaceX's FCC approval for 1 million orbital AI data center satellites connects to Elon Musk's $18B Thanksgiving stock gift, 142M shares, and June 2027 lockup.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-661",
+		"slug": "gwynne-shotwell-2-million-spacex-shares-elon-musk-thanksgiving-gift-reactions-2026",
+		"trendQuery": "gwynne shotwell spacex shares gift",
+		"broadTrends": [
+			"gwynne shotwell 2 million spacex shares kids pledge",
+			"reactions to elon musk 18 billion spacex thanksgiving gift",
+			"trump accounts td 10056 treasury rules corporate stock gifts",
+			"economists debate elon musk spacex youth shareholder base",
+			"spacex leadership thanksgiving philanthropy 2026"
+		],
+		"searchVolume": "11.1M+ monthly searches",
+		"category": "World & Economy",
+		"categoryTag": "world",
+		"emojiType": "globe",
+		"isBreaking": true,
+		"title": "Gwynne Shotwell Adds Over 2 Million Personal SpaceX Shares as Wall Street, Parents & Economists React to $18B Kids' Gift",
+		"shortExcerpt": "SpaceX President Gwynne Shotwell joined Elon Musk by pledging over 2 million personal shares—sparking fierce praise from families alongside spirited policy debate over tech-giant influence and federal youth accounts.",
+		"summary": "Beyond Elon Musk's personal 1-for-1 match and SpaceX's corporate Class A share grant, SpaceX President and COO Gwynne Shotwell amplified the Thanksgiving 2026 initiative by separately pledging over 2 million of her own personal SpaceX shares to American children's investment accounts. The combined $18B+ effort has drawn exuberant reactions from parents and retail investors while sparking fresh debate among economists and policymakers over corporate equity philanthropy, Treasury guidelines (such as T.D. 10056), and the expanding cultural footprint of megacap tech leaders.",
+		"officialLinks": [
+			{
+				"label": "SpaceX Official Leadership & News",
+				"url": "https://www.spacex.com/",
+				"platform": "spacex.com",
+				"badge": "SpaceX Official",
+				"description": "Read SpaceX's official announcement covering both corporate and executive share pledges.",
+				"primary": true
+			},
+			{
+				"label": "U.S. Treasury Regulations & Bulletins",
+				"url": "https://home.treasury.gov/",
+				"platform": "home.treasury.gov",
+				"badge": "Treasury Rules",
+				"description": "Review federal Treasury policy governing corporate stock contributions into youth investment accounts."
+			},
+			{
+				"label": "CBS News Full Report & Analysis",
+				"url": "https://www.cbsnews.com/",
+				"platform": "cbsnews.com",
+				"badge": "National Coverage",
+				"description": "Explore nationwide reactions from economists, families, and lawmakers."
+			}
+		],
+		"fullArticle": {
+			"lead": "When SpaceX's famously disciplined President and COO Gwynne Shotwell stepped forward with over 2 million of her own shares, Wall Street realized this Thanksgiving initiative was far more than a headline stunt.",
+			"sections": [{
+				"heading": "1. Gwynne Shotwell's 2-Million-Share Commitment Reinforces SpaceX's Unity",
+				"body": "Worth more than $250 million on its own at ~$127–$130 per share, Gwynne Shotwell's personal contribution underscored executive alignment across SpaceX's leadership. Supporters hailed the joint move by Musk, Shotwell, and the company as a blueprint for 'broad-based capitalism'—allowing working- and middle-class children to participate directly in the upside of orbital infrastructure and AI computing rather than leaving early-stage tech wealth concentrated among institutional funds."
+			}, {
+				"heading": "2. The Policy & Governance Debate Around Megacap Stock Gifts",
+				"body": "At the same time, legal scholars and public-policy analysts noted the unprecedented nature of routing tens of billions of dollars in single-company corporate equity into federally backed youth accounts governed by evolving Treasury frameworks like T.D. 10056. Critics questioned whether aligning 70 million households' financial interests with a single space-and-AI titan gives SpaceX outsized regulatory sway—while advocates countered that putting real, appreciating assets directly into children's names delivers far more tangible long-term benefit than traditional corporate ad campaigns."
+			}],
+			"takeaways": [
+				"Executive Boost: SpaceX President & COO Gwynne Shotwell pledged 2+ million personal SpaceX shares (worth $250M+) alongside Elon Musk and SpaceX.",
+				"Praise From Families: Parents and financial educators celebrated giving 70M kids immediate equity ownership in the space-and-AI economy.",
+				"Policy Debate: Analysts are closely watching Treasury rules (including T.D. 10056) and the long-term influence of massive retail shareholder alignment.",
+				"Bottom Line: Regardless of politics, the combined ~$18B+ commitment marks the largest corporate-and-founder equity gift to youth in U.S. history."
+			],
+			"expertQuote": {
+				"text": "Gwynne Shotwell's 2-million-share pledge confirms this is an all-in company mission—and whether critics cheer or debate it, 70 million young Americans are about to become SpaceX owners.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:20:00Z",
+		"updatedAt": "2026-11-27T21:20:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["elon-musk-spacex-gift"],
+		"imageCaption": "SpaceX President Gwynne Shotwell pledged over 2 million personal shares alongside Elon Musk's $18B Thanksgiving gift for American children.",
+		"metaTitle": "Gwynne Shotwell Adds 2M SpaceX Shares to Elon Musk's $18B Gift",
+		"metaDescription": "SpaceX President Gwynne Shotwell pledged 2M+ personal shares alongside Elon Musk's $18B Thanksgiving gift for American kids. Read Wall Street & economist reactions.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-660",
+		"slug": "broncos-vs-steelers-26-19-black-friday-2026-nfl-prime-video-mason-rudolph-acrisure-stadium",
+		"trendQuery": "broncos vs steelers",
+		"broadTrends": [
+			"broncos vs steelers",
+			"steelers",
+			"broncos vs steelers 26-19 black friday 2026 score prime video",
+			"pittsburgh steelers mason rudolph post aaron rodgers release",
+			"denver broncos pittsburgh steelers acrisure stadium highlights nov 27 2026"
+		],
+		"searchVolume": "19.2M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "fire",
+		"isBreaking": true,
+		"title": "Broncos vs. Steelers (26–19) Black Friday Final Score: Denver Outlasts Pittsburgh at Acrisure Stadium After Aaron Rodgers Exit",
+		"shortExcerpt": "Denver defeated Pittsburgh 26–19 on Prime Video's NFL Black Friday showcase at Acrisure Stadium, handing the Steelers a tough home loss in Mason Rudolph's first start following Aaron Rodgers' midweek release.",
+		"summary": "The Denver Broncos spoiled Pittsburgh's Black Friday showcase on November 27, 2026, defeating the Steelers 26–19 at Acrisure Stadium in Week 12 action streamed nationwide on Prime Video. Playing amid a tumultuous week after the franchise released Aaron Rodgers and turned the offense over to Mason Rudolph, Pittsburgh battled into the fourth quarter before Sean Payton's surging Broncos closed out a decisive road victory with major AFC playoff seeding implications.",
+		"officialLinks": [
+			{
+				"label": "NFL.com Official Broncos vs. Steelers Game Center",
+				"url": "https://www.nfl.com/scores/",
+				"platform": "nfl.com",
+				"badge": "Official Box Score",
+				"description": "View verified Week 12 drive charts, official player stats, and Black Friday scoring plays.",
+				"primary": true
+			},
+			{
+				"label": "Watch Prime Video Black Friday Replay",
+				"url": "https://www.amazon.com/gp/video/storefront",
+				"platform": "amazon.com",
+				"badge": "Prime Video",
+				"description": "Stream official Prime Video NFL Black Friday highlights, post-game analysis, and full replays."
+			},
+			{
+				"label": "ESPN NFL Standings & AFC Playoff Picture",
+				"url": "https://www.espn.com/nfl/standings",
+				"platform": "espn.com",
+				"badge": "AFC Standings",
+				"description": "Check updated AFC West and AFC North records following Denver's 26–19 win in Pittsburgh."
+			}
+		],
+		"fullArticle": {
+			"lead": "Four days after one of the most dramatic midweek quarterback shakeups of the 2026 NFL season, Pittsburgh couldn't hold off a disciplined Denver squad on Black Friday.",
+			"sections": [{
+				"heading": "1. Broncos Control Acrisure Stadium in 26–19 Black Friday Victory",
+				"body": "Sean Payton's Denver Broncos traveled into a charged atmosphere at Acrisure Stadium and executed cleanly across all three phases to secure a 26–19 Week 12 win on Prime Video. Denver capitalized on balanced offensive drives and key defensive stops down the stretch to strengthen its AFC playoff position, while keeping Pittsburgh's offense from completing a late fourth-quarter rally."
+			}, {
+				"heading": "2. Steelers Turn the Page With Mason Rudolph Under Center",
+				"body": "The spotlight in Pittsburgh remained squarely on the quarterback position after the Steelers parted ways with Aaron Rodgers earlier in the week. Veteran Mason Rudolph stepped in to steady the huddle and kept Pittsburgh within striking distance throughout the afternoon, but the 26–19 defeat leaves the Steelers facing crucial AFC North games down the December stretch."
+			}],
+			"takeaways": [
+				"Final Score (Black Friday, Nov 27, 2026): Denver Broncos 26, Pittsburgh Steelers 19 at Acrisure Stadium.",
+				"Broadcast: Streamed nationally on Amazon Prime Video as the NFL's Week 12 Black Friday feature.",
+				"Steelers Context: First game with Mason Rudolph starting after Pittsburgh's midweek release of Aaron Rodgers.",
+				"Playoff Impact: Surging Denver picks up a crucial AFC road win while Pittsburgh regroups in the AFC North race."
+			],
+			"expertQuote": {
+				"text": "Winning a hostile Black Friday road game in Pittsburgh by seven points underscores just how playoff-ready Sean Payton's Broncos have become entering December.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:15:00Z",
+		"updatedAt": "2026-11-27T21:15:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["browns-steelers"],
+		"imageCaption": "The Denver Broncos defeated the Pittsburgh Steelers 26–19 at Acrisure Stadium on Black Friday, November 27, 2026.",
+		"metaTitle": "Broncos vs Steelers (26-19): Black Friday NFL Final Score & Recap",
+		"metaDescription": "Denver Broncos beat Pittsburgh Steelers 26–19 on Prime Video Black Friday (Nov 27, 2026). Full recap, Mason Rudolph's start after Aaron Rodgers' exit, and AFC standings.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-659",
+		"slug": "bills-vs-chiefs-13-10-thanksgiving-2026-tyler-bass-57-yard-game-winner-box-score-recap",
+		"trendQuery": "chiefs vs bills",
+		"broadTrends": [
+			"chiefs vs bills",
+			"bills vs chiefs 13-10 thanksgiving 2026 final score highlights",
+			"tyler bass 57 yard game winning field goal chiefs bills",
+			"patrick mahomes late snap fumble greg dortch punt return buffalo",
+			"james cook 117 rushing yards bills 10-1 afc standings"
+		],
+		"searchVolume": "21.6M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "trophy",
+		"isBreaking": true,
+		"title": "Bills Stun Chiefs 13–10 on Tyler Bass' Walk-Off 57-Yard Field Goal in Rain-Soaked Thanksgiving Thriller",
+		"shortExcerpt": "After a late Patrick Mahomes snap fumble and a tipped KC punt returned by Greg Dortch with 4 seconds left, Tyler Bass drilled a 57-yard walk-off kick in the rain to lift 10–1 Buffalo past 8–3 Kansas City.",
+		"summary": "In Buffalo's first-ever home Thanksgiving night game on November 26, 2026, the Bills defeated the Kansas City Chiefs 13–10 in a cold, rain-soaked defensive slugfest at Highmark Stadium. Tied 10–10 with 26 seconds left, Patrick Mahomes fumbled a snap deep in Kansas City territory, Joe Andreeseen got a hand on the ensuing punt, Greg Dortch returned it 17 yards to the KC 39, and Tyler Bass buried a 57-yard game-winning field goal as time expired to push Buffalo to 10–1 (seven straight wins) and drop the Chiefs to 8–3.",
+		"officialLinks": [
+			{
+				"label": "NFL.com Official Chiefs vs. Bills Box Score",
+				"url": "https://www.nfl.com/scores/",
+				"platform": "nfl.com",
+				"badge": "Official Box Score",
+				"description": "See complete drive charts, Tyler Bass' 57-yard walk-off replay, and full defensive stats.",
+				"primary": true
+			},
+			{
+				"label": "BuffaloBills.com Game Recap & Postgame",
+				"url": "https://www.buffalobills.com/",
+				"platform": "buffalobills.com",
+				"badge": "Official Bills Site",
+				"description": "Watch official Highmark Stadium locker room reaction as Buffalo improves to 10–1."
+			},
+			{
+				"label": "Chiefs.com Official Postgame Coverage",
+				"url": "https://www.chiefs.com/",
+				"platform": "chiefs.com",
+				"badge": "Official Chiefs Site",
+				"description": "Read Patrick Mahomes and Andy Reid's postgame press conference transcripts from Buffalo."
+			}
+		],
+		"fullArticle": {
+			"lead": "Neither Patrick Mahomes nor Josh Allen reached 200 passing yards in driving Buffalo wind and rain—setting up one of the wildest 26-second special-teams finishes of the 2026 season.",
+			"sections": [{
+				"heading": "1. The 26-Second Sequence That Decided AFC Seeding",
+				"body": "Deadlocked at 10–10 with 26 seconds remaining, Kansas City took over deep in its own end needing only a first down to force overtime. On first down, Mahomes fumbled the wet snap for a 5-yard loss, ultimately forcing the Chiefs to punt from their own end zone. Bills special-teamer Joe Andreeseen got a hand on the kick, Greg Dortch fielded it and raced 17 yards to the Chiefs' 39-yard line with 0:04 left, and kicker Tyler Bass launched a clutch 57-yard field goal through the wind and rain as the clock hit zero."
+			}, {
+				"heading": "2. James Cook Powers Buffalo to 10–1 in Defensive Rock Fight",
+				"body": "With gusts and rain neutralizing downfield passing, Bills running back James Cook carried the offense with 117 rushing yards and Buffalo's lone touchdown in the second quarter, helping offset a tough passing night for Josh Allen (81 yards, 2 interceptions). For Kansas City (8–3), Mahomes finished 16-of-29 for 174 yards with no touchdowns or picks, while Emmett Johnson scored the Chiefs' only touchdown on the ground in the third quarter."
+			}],
+			"takeaways": [
+				"Final Score: Buffalo Bills 13, Kansas City Chiefs 10 at Highmark Stadium (Thanksgiving Night, Nov 26, 2026).",
+				"Walk-Off Hero: Tyler Bass nailed a 57-yard field goal as time expired after Joe Andreeseen tipped KC's punt and Greg Dortch returned it 17 yards.",
+				"Top Stats: James Cook (117 rush yds, 1 TD), Patrick Mahomes (16/29, 174 yds), Josh Allen (81 pass yds, 2 INTs), Emmett Johnson (1 rush TD).",
+				"AFC Race: Buffalo extends its winning streak to seven games at 10–1; Kansas City drops to 8–3."
+			],
+			"expertQuote": {
+				"text": "Hitting a 57-yard walk-off in November Buffalo rain after a tipped punt gives the Bills both a two-game cushion and the head-to-head tiebreaker for the AFC's No. 1 seed.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:10:00Z",
+		"updatedAt": "2026-11-27T21:10:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["ravens-bills"],
+		"imageCaption": "Tyler Bass drilled a 57-yard walk-off field goal in the rain to lift the 10–1 Buffalo Bills over the Kansas City Chiefs 13–10.",
+		"metaTitle": "Bills vs Chiefs (13-10): Tyler Bass 57-Yard Walk-Off Recap",
+		"metaDescription": "Buffalo Bills beat Kansas City Chiefs 13–10 on Tyler Bass' 57-yard walk-off field goal on Thanksgiving night 2026. Full box score, James Cook stats, and AFC standings.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-658",
+		"slug": "nottingham-forest-vs-chelsea-2-1-premier-league-nov-27-2026-igor-jesus-gibbs-white-goals",
+		"trendQuery": "nottm forest vs chelsea",
+		"broadTrends": [
+			"nottm forest vs chelsea",
+			"nottingham forest vs chelsea 2-1 premier league highlights nov 27 2026",
+			"igor jesus volley morgan gibbs-white penalty emanuel emegha goal",
+			"xabi alonso chelsea pressure oliver glasner nottingham forest",
+			"premier league table gameweek 12 city ground result"
+		],
+		"searchVolume": "11.8M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "soccer",
+		"isBreaking": true,
+		"title": "Nottingham Forest Stun Chelsea 2–1 at City Ground: Igor Jesus Volley & Gibbs-White Penalty Pile Pressure on Xabi Alonso",
+		"shortExcerpt": "Igor Jesus struck a 5th-minute volley and Morgan Gibbs-White converted a 51st-minute penalty as Oliver Glasner's Nottingham Forest held off Emanuel Emegha's reply to beat Chelsea 2–1 in Premier League Friday night action.",
+		"summary": "Nottingham Forest earned a massive 2–1 Premier League victory over Chelsea at the City Ground on Friday, November 27, 2026. Forward Igor Jesus electrified the home crowd with a 5th-minute volley off a Daniel Muñoz cross, and captain Morgan Gibbs-White doubled the lead from the penalty spot in the 51st minute. Although Emanuel Emegha pulled a goal back for Chelsea three minutes later (54'), Forest closed out the win—lifting Oliver Glasner's side clear of the relegation zone while deepening Chelsea's slump under manager Xabi Alonso.",
+		"officialLinks": [
+			{
+				"label": "PremierLeague.com Official Match Centre",
+				"url": "https://www.premierleague.com/matches",
+				"platform": "premierleague.com",
+				"badge": "Official EPL Stats",
+				"description": "Full lineups, xG numbers, live Premier League table, and verified match timeline.",
+				"primary": true
+			},
+			{
+				"label": "Nottingham Forest Official Club Site",
+				"url": "https://www.nottinghamforest.co.uk/",
+				"platform": "nottinghamforest.co.uk",
+				"badge": "Forest Official",
+				"description": "Read Oliver Glasner's reaction and City Ground matchday photography."
+			},
+			{
+				"label": "Chelsea FC Official Match Report",
+				"url": "https://www.chelseafc.com/",
+				"platform": "chelseafc.com",
+				"badge": "Chelsea Official",
+				"description": "See Xabi Alonso's post-match press conference and injury updates."
+			}
+		],
+		"fullArticle": {
+			"lead": "Already boasting a 3–1 home upset of Manchester City earlier this month, Nottingham Forest turned the City Ground into a fortress once again under the Friday night lights.",
+			"sections": [{
+				"heading": "1. Fast Start From Igor Jesus & Decisive Second-Half Penalty",
+				"body": "Forest wasted no time exposing a Chelsea backline missing Reece James, Jorrel Hato, and Maxence Lacroix. Just five minutes in, Daniel Muñoz whipped a teasing cross into the box and Igor Jesus met it cleanly on the volley to fire Forest ahead 1–0. Early in the second half (51'), Morgan Gibbs-White calmly dispatched a penalty to make it 2–0, giving Forest the cushion it needed even after Chelsea striker Emanuel Emegha answered immediately in the 54th minute."
+			}, {
+				"heading": "2. Huge Boost for Oliver Glasner, Mounting Pressure on Xabi Alonso",
+				"body": "Entering Gameweek 12 hovering in 17th on nine points, Forest's victory moves Oliver Glasner's squad to 12 points with vital breathing room above the bottom three. Conversely, Chelsea—fresh off a painful 4–1 home loss to Leeds United—have now dropped four of their last five Premier League outings, leaving manager Xabi Alonso facing intense scrutiny over defensive fragility that has seen the Blues concede 22 goals in 12 league matches."
+			}],
+			"takeaways": [
+				"Final Score (Premier League GW12, Nov 27, 2026): Nottingham Forest 2, Chelsea 1 at the City Ground.",
+				"Goalscorers: Igor Jesus (5') and Morgan Gibbs-White (51' pen) for Forest; Emanuel Emegha (54') for Chelsea.",
+				"Standings Impact: Forest climb to 12 points away from the relegation zone; Chelsea remain stuck on 16 points.",
+				"Manager Watch: Big statement win for Oliver Glasner while Chelsea's slump intensifies pressure on Xabi Alonso."
+			],
+			"expertQuote": {
+				"text": "Beating both Manchester City and Chelsea at the City Ground in the same month proves Oliver Glasner's Nottingham Forest have real steel when the lights come on.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:05:00Z",
+		"updatedAt": "2026-11-27T21:05:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["premier-league-derby"],
+		"imageCaption": "Nottingham Forest stunned Chelsea 2–1 at the City Ground on November 27, 2026 behind goals from Igor Jesus and Morgan Gibbs-White.",
+		"metaTitle": "Nottm Forest vs Chelsea (2-1): Premier League Result & Goals",
+		"metaDescription": "Nottingham Forest defeated Chelsea 2–1 on Nov 27, 2026 with goals from Igor Jesus (5') and Morgan Gibbs-White (51' pen). Full Premier League recap and table impact.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-657",
+		"slug": "andrea-stewart-cousins-dies-at-76-new-york-senate-majority-leader-legacy-tributes-nov-2026",
+		"trendQuery": "andrea stewart cousins",
+		"broadTrends": [
+			"andrea stewart cousins",
+			"andrea stewart cousins dies at 76 new york senate majority leader",
+			"kathy hochul flags half staff andrea stewart cousins tribute",
+			"new york state senate 35th district yonkers westchester succession",
+			"first woman black woman new york senate majority leader legacy"
+		],
+		"searchVolume": "9.4M+ monthly searches",
+		"category": "World & Politics",
+		"categoryTag": "world",
+		"emojiType": "globe",
+		"isBreaking": true,
+		"title": "New York Senate Majority Leader Andrea Stewart-Cousins Dies Unexpectedly at 76; Flags Ordered to Half-Staff",
+		"shortExcerpt": "Trailblazing New York State Senate Majority Leader Andrea Stewart-Cousins—the first woman and first Black woman to lead the chamber—has died unexpectedly at age 76, prompting tributes from Gov. Kathy Hochul and leaders nationwide.",
+		"summary": "New York State Senate Majority Leader Andrea Stewart-Cousins died unexpectedly at the age of 76 on November 26–27, 2026, her office confirmed through Senate Majority Communications Director Mike Murphy. Representing Westchester County's 35th District (including Yonkers), Stewart-Cousins made history in 2019 as both the first woman and the first Black woman to serve as New York Senate Majority Leader, becoming the longest-serving Democratic majority leader in state history. Governor Kathy Hochul ordered flags on all state buildings lowered to half-staff.",
+		"officialLinks": [
+			{
+				"label": "New York State Senate Official Portal",
+				"url": "https://www.nysenate.gov/",
+				"platform": "nysenate.gov",
+				"badge": "Official NY Senate",
+				"description": "Read official Senate leadership statements and upcoming memorial service announcements.",
+				"primary": true
+			},
+			{
+				"label": "Office of Governor Kathy Hochul",
+				"url": "https://www.governor.ny.gov/",
+				"platform": "governor.ny.gov",
+				"badge": "NY Governor",
+				"description": "View Governor Hochul's official proclamation lowering state flags to half-staff."
+			},
+			{
+				"label": "CBS News New York Coverage",
+				"url": "https://www.cbsnews.com/newyork/",
+				"platform": "cbsnews.com",
+				"badge": "Local News",
+				"description": "Follow live Westchester, Albany, and congressional tributes to Sen. Andrea Stewart-Cousins."
+			}
+		],
+		"fullArticle": {
+			"lead": "Just weeks after Senate Democrats unanimously re-elected her to another two-year leadership term, Albany and Yonkers are mourning the sudden loss of one of the most consequential figures in modern New York politics.",
+			"sections": [{
+				"heading": "1. Historic Trailblazer Who Transformed Albany",
+				"body": "Born and raised in New York, Andrea Stewart-Cousins rose from Westchester County government to shatter glass ceilings in the State Capitol. When Democrats won control of the Senate in 2018, she took the gavel in January 2019 as the first woman and first Black woman ever elected Temporary President and Majority Leader of the New York State Senate. Over nearly eight years at the helm, she steered landmark legislation spanning voting rights, gun safety, tenant protections, criminal justice reform, and reproductive freedom while restoring legislative stability to Albany."
+			}, {
+				"heading": "2. Statewide Tributes & What Happens Next in the NY Senate",
+				"body": "Tributes poured in from Governor Kathy Hochul, New York's congressional delegation, New York City officials, and colleagues across the aisle who praised her grace, coalition-building, and devotion to the 35th Senate District. Governor Hochul directed that flags across all state government buildings be flown at half-staff in her honor. Senate officials stated that formal details regarding memorial services and the legislative leadership succession process will be released in the coming weeks."
+			}],
+			"takeaways": [
+				"Breaking News: NY Senate Majority Leader Andrea Stewart-Cousins passed away unexpectedly at age 76 (Nov 26–27, 2026).",
+				"Historic First: Became the first woman and first Black woman to serve as New York Senate Majority Leader in 2019.",
+				"Tenure: Longest-serving Democratic Senate Majority Leader in NY history; re-elected to another 2-year term earlier in November.",
+				"Statewide Tribute: Governor Kathy Hochul ordered flags on all NY state buildings lowered to half-staff."
+			],
+			"expertQuote": {
+				"text": "Andrea Stewart-Cousins did not just break Albany's highest legislative barrier—she reshaped New York policy for a generation through steady, consensus-driven leadership.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T21:00:00Z",
+		"updatedAt": "2026-11-27T21:00:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["senate-elections-desk"],
+		"imageCaption": "New York State Senate Majority Leader Andrea Stewart-Cousins died unexpectedly at 76, prompting statewide tributes and flags at half-staff.",
+		"metaTitle": "Andrea Stewart-Cousins Dies at 76: NY Senate Leader Tributes",
+		"metaDescription": "New York Senate Majority Leader Andrea Stewart-Cousins has died unexpectedly at age 76. Read Gov. Kathy Hochul's tribute, her historic legacy, and NY Senate succession details.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-656",
+		"slug": "nebraska-vs-iowa-7-31-heroes-game-black-friday-2026-hank-brown-3-rushing-tds-box-score",
+		"trendQuery": "nebraska vs iowa",
+		"broadTrends": [
+			"nebraska vs iowa",
+			"iowa vs nebraska 31-7 heroes game black friday 2026 score",
+			"hank brown 3 rushing touchdowns iowa hawkeyes 10-2",
+			"big ten football standings nebraska 7-5 iowa playoff resume",
+			"heroes game kinnick stadium box score november 27 2026"
+		],
+		"searchVolume": "8.9M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "fire",
+		"isBreaking": true,
+		"title": "No. 13 Iowa Crushes No. 25 Nebraska 31–7 in Heroes Game: Hank Brown Runs for 3 TDs as Hawkeyes Hit 10–2",
+		"shortExcerpt": "Iowa quarterback Hank Brown accounted for four total touchdowns—including three rushing scores—as the No. 13 Hawkeyes rolled past No. 25 Nebraska 31–7 in Iowa City to finish 10–2 and claim their fourth straight Heroes Game trophy.",
+		"summary": "No. 13 Iowa dominated No. 25 Nebraska 31–7 in the annual Heroes Game at Kinnick Stadium in Iowa City on Black Friday, November 27, 2026. Hawkeyes quarterback Hank Brown powered the blowout with four total touchdowns—rushing for three scores (14, 6, and 29 yards on 48 rushing yards) while throwing for 173 yards and a touchdown. Iowa finishes the regular season at 10–2 (7–2 Big Ten) with its fourth straight Heroes Game victory (11 of the last 12 against Nebraska), while the Cornhuskers drop to 7–5 (4–5 Big Ten).",
+		"officialLinks": [
+			{
+				"label": "ESPN Official Nebraska vs. Iowa Box Score",
+				"url": "https://www.espn.com/college-football/scoreboard",
+				"platform": "espn.com",
+				"badge": "Official Box Score",
+				"description": "Full Big Ten play-by-play, Hank Brown's stat line, and updated CFP rankings outlook.",
+				"primary": true
+			},
+			{
+				"label": "HawkeyeSports.com Game Recap",
+				"url": "https://hawkeyesports.com/",
+				"platform": "hawkeyesports.com",
+				"badge": "Iowa Official",
+				"description": "Read official Iowa postgame coverage from Kinnick Stadium as the Hawkeyes reach 10–2."
+			},
+			{
+				"label": "Huskers.com Nebraska Football Hub",
+				"url": "https://huskers.com/",
+				"platform": "huskers.com",
+				"badge": "Nebraska Official",
+				"description": "Check Nebraska's bowl projections and postgame quotes after finishing 7–5."
+			}
+		],
+		"fullArticle": {
+			"lead": "In a rare ranked-vs-ranked Heroes Game showdown in Iowa City, the Hawkeyes left zero doubt about who owns the rivalry—and made a loud closing argument for the 12-team College Football Playoff.",
+			"sections": [{
+				"heading": "1. Hank Brown's Four-Touchdown Showcase Powers 31–7 Rout",
+				"body": "Iowa's offense operated with ruthless efficiency against a ranked Nebraska defense. Quarterback Hank Brown repeatedly punished the Cornhuskers with his legs, scampering for touchdown runs of 14, 6, and 29 yards while adding 173 yards and a touchdown through the air. Backed by Iowa's trademark physicality on defense, the Hawkeyes shut down Nebraska's attack and turned a marquee Black Friday clash into a one-sided statement victory."
+			}, {
+				"heading": "2. CFP Implications for 10–2 Iowa & Bowl Outlook for 7–5 Nebraska",
+				"body": "Finishing the regular season at 10–2 overall and 7–2 in Big Ten play with a decisive 24-point win over a Top 25 opponent puts No. 13 Iowa squarely in the thick of the 12-team College Football Playoff at-large conversation heading into Championship Weekend. Meanwhile, Iowa's dominance in the Heroes Game now stretches to four consecutive wins and 11 victories in the past 12 meetings against 7–5 Nebraska."
+			}],
+			"takeaways": [
+				"Final Score (Black Friday, Nov 27, 2026): No. 13 Iowa 31, No. 25 Nebraska 7 in Iowa City.",
+				"Star Performer: Iowa QB Hank Brown scored 4 total TDs (3 rushing TDs of 14, 6, and 29 yds + 173 pass yds, 1 pass TD).",
+				"Records: Iowa closes at 10–2 (7–2 Big Ten); Nebraska falls to 7–5 (4–5 Big Ten).",
+				"Rivalry Streak: Iowa captures its 4th straight Heroes Game win and 11 of the last 12 meetings."
+			],
+			"expertQuote": {
+				"text": "Blowing out a ranked rival 31–7 to reach 10–2 gives the College Football Playoff committee a very hard Iowa resume to leave outside the 12-team field.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:55:00Z",
+		"updatedAt": "2026-11-27T20:55:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["beaver-stadium-psu"],
+		"imageCaption": "No. 13 Iowa defeated No. 25 Nebraska 31–7 in the 2026 Heroes Game behind four total touchdowns from quarterback Hank Brown.",
+		"metaTitle": "Nebraska vs Iowa (7-31): Hank Brown Powers 10-2 Hawkeyes",
+		"metaDescription": "No. 13 Iowa crushed No. 25 Nebraska 31–7 in the Black Friday Heroes Game (Nov 27, 2026) as QB Hank Brown scored 4 TDs. Full box score, Big Ten standings, and CFP outlook.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-655",
+		"slug": "ole-miss-vs-mississippi-state-41-17-egg-bowl-2026-trinidad-chambliss-joshua-dye-recap",
+		"trendQuery": "ms state vs ole miss",
+		"broadTrends": [
+			"ms state vs ole miss",
+			"ole miss vs mississippi state 41-17 egg bowl 2026 score highlights",
+			"trinidad chambliss 3 touchdowns joshua dye 2 rushing tds ole miss",
+			"123rd egg bowl vaught hemingway stadium oxford nov 27 2026",
+			"ole miss 8-4 sec football mississippi state 5-7 bowl eligibility"
+		],
+		"searchVolume": "7.6M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "trophy",
+		"isBreaking": true,
+		"title": "Egg Bowl 2026: No. 22 Ole Miss Explodes for 35 Second-Half Points to Rout Mississippi State 41–17",
+		"shortExcerpt": "After trailing 10–6 at halftime in Oxford, No. 22 Ole Miss outscored Mississippi State 35–7 after the break behind Trinidad Chambliss' 3 TDs and Joshua Dye's 2 rushing scores to win its fourth straight Egg Bowl 41–17.",
+		"summary": "In the 123rd edition of the Egg Bowl on Black Friday, November 27, 2026, No. 22/23 Ole Miss erased a sluggish first half to overwhelm rival Mississippi State 41–17 at Vaught-Hemingway Stadium in Oxford. Trailing 10–6 at the intermission, the Rebels detonated for a 35–7 second-half surge led by quarterback Trinidad Chambliss (two passing touchdowns, one rushing) and running back Joshua Dye (two rushing touchdowns). Ole Miss finishes 8–4 (5–4 SEC) with its fourth straight Egg Bowl trophy, while Mississippi State ends at 5–7 (2–7 SEC), falling one win short of bowl eligibility.",
+		"officialLinks": [
+			{
+				"label": "OleMissSports.com Official Egg Bowl Recap",
+				"url": "https://olemisssports.com/",
+				"platform": "olemisssports.com",
+				"badge": "Ole Miss Official",
+				"description": "Read full Egg Bowl box score, postgame quotes, and highlights from Oxford.",
+				"primary": true
+			},
+			{
+				"label": "ESPN College Football Scoreboard & Stats",
+				"url": "https://www.espn.com/college-football/scoreboard",
+				"platform": "espn.com",
+				"badge": "Official Box Score",
+				"description": "Compare first-half vs. second-half drive charts and updated SEC standings."
+			},
+			{
+				"label": "HailState.com Mississippi State Coverage",
+				"url": "https://hailstate.com/",
+				"platform": "hailstate.com",
+				"badge": "MSU Official",
+				"description": "Follow Mississippi State's postgame reactions and 2027 offseason outlook."
+			}
+		],
+		"fullArticle": {
+			"lead": "Mississippi State had Vaught-Hemingway Stadium nervously quiet at halftime with a 10–6 lead—and then Ole Miss flipped the switch for 35 explosive second-half points.",
+			"sections": [{
+				"heading": "1. A 35–7 Second-Half Avalanche Keeps the Golden Egg in Oxford",
+				"body": "After trading field goals and defensive stops across a tight opening 30 minutes, Ole Miss came out of the locker room unstoppable. Quarterback Trinidad Chambliss sliced through the Bulldogs' defense for three total touchdowns—two through the air and one on the ground—while running back Joshua Dye powered into the end zone twice to turn a 10–6 deficit into a resounding 41–17 rivalry rout."
+			}, {
+				"heading": "2. Four Straight Egg Bowls for 8–4 Rebels; Bulldogs Denied Bowl Berth",
+				"body": "The victory locks in an 8–4 regular season (5–4 in the SEC) and a fourth consecutive Egg Bowl triumph for Ole Miss, positioning the Rebels for a premier SEC bowl bid in December. For Mississippi State (5–7, 2–7 SEC), the second-half collapse ends their postseason hopes one victory shy of the six-win bowl threshold."
+			}],
+			"takeaways": [
+				"Final Score (123rd Egg Bowl, Nov 27, 2026): No. 22/23 Ole Miss 41, Mississippi State 17 in Oxford.",
+				"Turning Point: Mississippi State led 10–6 at halftime before Ole Miss outscored the Bulldogs 35–7 in the second half.",
+				"Key Performers: Ole Miss QB Trinidad Chambliss (2 pass TDs, 1 rush TD) and RB Joshua Dye (2 rush TDs).",
+				"Final Regular-Season Records: Ole Miss 8–4 (4th straight Egg Bowl win); Mississippi State 5–7 (eliminated from bowl eligibility)."
+			],
+			"expertQuote": {
+				"text": "Turning a four-point halftime deficit into a 24-point Egg Bowl runaway shows the offensive ceiling Trinidad Chambliss and Joshua Dye give Ole Miss heading into bowl season.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:50:00Z",
+		"updatedAt": "2026-11-27T20:50:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["mclane-stadium-baylor"],
+		"imageCaption": "No. 22 Ole Miss erupted for 35 second-half points to defeat Mississippi State 41–17 in the 123rd Egg Bowl on November 27, 2026.",
+		"metaTitle": "MS State vs Ole Miss (17-41): Egg Bowl 2026 Final Score & Recap",
+		"metaDescription": "No. 22 Ole Miss routed Mississippi State 41–17 in the 2026 Egg Bowl on Black Friday behind 35 second-half points from Trinidad Chambliss and Joshua Dye.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-654",
+		"slug": "florida-vs-florida-state-black-friday-2026-jon-sumrall-glenn-schumann-abc-rivalry-guide",
+		"trendQuery": "florida vs florida state",
+		"broadTrends": [
+			"florida vs florida state",
+			"florida football",
+			"florida gators vs florida state seminoles black friday 2026 abc",
+			"jon sumrall florida gators ranked no 20 cfp standings",
+			"glenn schumann hired florida state head coach rick stockstill interim"
+		],
+		"searchVolume": "10.3M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "fire",
+		"isBreaking": true,
+		"title": "Florida vs. Florida State Black Friday 2026: No. 20 Gators, Jon Sumrall & FSU's Glenn Schumann Coaching Shakeup",
+		"shortExcerpt": "No. 20 Florida (7–4) under first-year coach Jon Sumrall visits 5–6 Florida State on ABC in Tallahassee—with bowl eligibility on the line for interim coach Rick Stockstill days after FSU hired Georgia DC Glenn Schumann.",
+		"summary": "The Sunshine Showdown between No. 20 Florida (7–4) and Florida State (5–6) takes center stage on Black Friday, November 27, 2026, at 3:30 PM ET on ABC from Doak Campbell Stadium in Tallahassee. First-year Gators head coach Jon Sumrall has propelled Florida back into the College Football Playoff Top 20 and looks to deny FSU bowl eligibility, while interim coach Rick Stockstill leads the Seminoles after Mike Norvell's November 1 firing—just days after FSU announced Georgia defensive coordinator Glenn Schumann as its next permanent head coach.",
+		"officialLinks": [
+			{
+				"label": "ESPN Live Florida vs. FSU Score & ABC Stream",
+				"url": "https://www.espn.com/college-football/scoreboard",
+				"platform": "espn.com",
+				"badge": "ABC / ESPN Live",
+				"description": "Track live scoring updates, full play-by-play, and official ABC stream access.",
+				"primary": true
+			},
+			{
+				"label": "FloridaGators.com Official Football Hub",
+				"url": "https://floridagators.com/sports/football",
+				"platform": "floridagators.com",
+				"badge": "Gators Official",
+				"description": "Follow Jon Sumrall's No. 20 Gators roster, game notes, and postgame press conferences."
+			},
+			{
+				"label": "Seminoles.com Official FSU Football & Coaching News",
+				"url": "https://seminoles.com/sports/football",
+				"platform": "seminoles.com",
+				"badge": "FSU Official",
+				"description": "Read official details on Glenn Schumann's hiring and Rick Stockstill's senior-day finale."
+			}
+		],
+		"fullArticle": {
+			"lead": "Few rivalries carry as much immediate drama and future-shaping coaching intrigue as the 2026 edition of Florida vs. Florida State in Tallahassee.",
+			"sections": [{
+				"heading": "1. Jon Sumrall's Revival Has No. 20 Florida Hunting an 8-Win Finish",
+				"body": "In his first season in Gainesville, head coach Jon Sumrall has revitalized Florida football, guiding the Gators to a 7–4 record and a No. 20 spot in the College Football Playoff rankings entering rivalry weekend. A road win at Doak Campbell Stadium not only locks in an eight-win regular season and upper-tier SEC bowl destination, but also delivers a bitter blow by keeping rival Florida State stuck at five wins and out of bowl season."
+			}, {
+				"heading": "2. FSU's Coaching Reset: Rick Stockstill Closes Season as Glenn Schumann Awaits",
+				"body": "Florida State enters at 5–6 amid sweeping change. Following the November 1 dismissal of Mike Norvell, former Seminoles quarterback Rick Stockstill took over as interim head coach to fight for bowl eligibility. Days before kickoff, FSU made major national headlines by hiring Georgia defensive coordinator Glenn Schumann as its next permanent head coach—with Schumann slated to arrive in Tallahassee after Georgia completes its postseason run."
+			}],
+			"takeaways": [
+				"Matchup: No. 20 Florida Gators (7–4) at Florida State Seminoles (5–6), Friday, Nov 27, 2026 at 3:30 PM ET on ABC.",
+				"Venue: Doak Campbell Stadium, Tallahassee, FL.",
+				"Florida Storyline: First-year HC Jon Sumrall has Florida ranked No. 20 and aiming to block FSU's bowl bid.",
+				"FSU Coaching News: Interim HC Rick Stockstill coaches the finale days after FSU hired Georgia DC Glenn Schumann as permanent head coach."
+			],
+			"expertQuote": {
+				"text": "Jon Sumrall has restored swagger to Gainesville in Year 1, while Glenn Schumann's arrival in Tallahassee promises to turn the Sunshine Showdown back into a Top 20 heavyweight clash.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:45:00Z",
+		"updatedAt": "2026-11-27T20:45:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["nfl-qb-battle"],
+		"imageCaption": "No. 20 Florida visits Florida State on Black Friday, November 27, 2026 at Doak Campbell Stadium on ABC.",
+		"metaTitle": "Florida vs Florida State 2026: Live TV, Sumrall & Glenn Schumann News",
+		"metaDescription": "No. 20 Florida (7–4) faces Florida State (5–6) on ABC on Black Friday, Nov 27, 2026. Live TV info, Jon Sumrall's Gators surge, and FSU's hiring of Glenn Schumann.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-653",
+		"slug": "nd-state-vs-sjsu-black-friday-2026-north-dakota-state-san-jose-state-cbssn-matchup-guide",
+		"trendQuery": "nd state vs sjsu",
+		"broadTrends": [
+			"nd state vs sjsu",
+			"north dakota state vs san jose state black friday 2026 cbssn",
+			"ndsu bison vs sjsu spartans cefcu stadium live score watch",
+			"north dakota state football schedule november 27 2026",
+			"san jose state mountain west football week 13 tv channel"
+		],
+		"searchVolume": "4.2M+ monthly searches",
+		"category": "Sports & Matchups",
+		"categoryTag": "sports",
+		"emojiType": "trophy",
+		"isBreaking": true,
+		"title": "ND State vs. SJSU (Black Friday 2026): How to Watch North Dakota State at San Jose State Live on CBSSN",
+		"shortExcerpt": "North Dakota State visits San Jose State at CEFCU Stadium in a rare Week 13 Black Friday college football showcase kicking off at 12:30 PM PT / 2:30 PM CT on CBS Sports Network.",
+		"summary": "The North Dakota State Bison square off against the San Jose State Spartans on Black Friday, November 27, 2026, in a high-profile Week 13 college football clash at CEFCU Stadium in San Jose, California. Kickoff is scheduled for 12:30 PM PT (2:30 PM CT / 3:30 PM ET) with national television coverage on CBS Sports Network (CBSSN), spotlighting one of college football's most intriguing late-season non-conference matchups.",
+		"officialLinks": [
+			{
+				"label": "CBS Sports Live Scoreboard & CBSSN Stream",
+				"url": "https://www.cbssports.com/college-football/scoreboard/",
+				"platform": "cbssports.com",
+				"badge": "CBSSN Official",
+				"description": "Follow live Week 13 box scores, drive charts, and official CBS Sports Network streaming.",
+				"primary": true
+			},
+			{
+				"label": "GoBison.com Official North Dakota State Hub",
+				"url": "https://gobison.com/sports/football",
+				"platform": "gobison.com",
+				"badge": "NDSU Official",
+				"description": "Access official Bison roster notes, radio broadcasts, and postgame statistics."
+			},
+			{
+				"label": "SJSUSpartans.com Official San Jose State Hub",
+				"url": "https://sjsuspartans.com/sports/football",
+				"platform": "sjsuspartans.com",
+				"badge": "SJSU Official",
+				"description": "Check CEFCU Stadium gameday info, live stats, and San Jose State updates."
+			}
+		],
+		"fullArticle": {
+			"lead": "While most Week 13 Black Friday matchups feature conference rivals, North Dakota State's trip to Silicon Valley to battle San Jose State has become one of the most searched afternoon games on the board.",
+			"sections": [{
+				"heading": "1. Kickoff Time, TV Channel & Official Live Streaming Details",
+				"body": "North Dakota State vs. San Jose State kicks off Friday, November 27, 2026, at 12:30 PM Pacific Time (2:30 PM Central / 3:30 PM Eastern) from CEFCU Stadium in San Jose, California. Fans nationwide can watch live on CBS Sports Network (CBSSN) via cable, YouTube TV, Hulu + Live TV, Fubo, or DirecTV Stream, with live stats and play-by-play available through CBS Sports and both schools' official athletics portals."
+			}, {
+				"heading": "2. Why ND State vs. SJSU Is Drawing Massive Black Friday Attention",
+				"body": "North Dakota State has built a national reputation as a giant-killer against FBS opponents thanks to physical line play, disciplined special teams, and a relentless rushing attack. Facing a fast-paced San Jose State squad on national television gives both fanbases—and bettors tracking Week 13 action—a compelling stylistic contrast in the heart of Black Friday's college football slate."
+			}],
+			"takeaways": [
+				"Matchup: North Dakota State Bison at San Jose State Spartans (Week 13, Friday, Nov 27, 2026).",
+				"Kickoff Time: 12:30 PM PT / 2:30 PM CT / 3:30 PM ET.",
+				"Location: CEFCU Stadium, San Jose, California.",
+				"TV & Streaming: Live nationally on CBS Sports Network (CBSSN)."
+			],
+			"expertQuote": {
+				"text": "Any time North Dakota State steps onto an FBS field on national television, college football fans tune in immediately—especially on a holiday afternoon.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:40:00Z",
+		"updatedAt": "2026-11-27T20:40:00Z",
+		"readTime": "3 min read",
+		"imageUrl": ARTICLE_IMAGES["sam-hartman-nfl"],
+		"imageCaption": "North Dakota State and San Jose State meet at CEFCU Stadium on Black Friday, November 27, 2026 on CBS Sports Network.",
+		"metaTitle": "ND State vs SJSU (Nov 27, 2026): Time, CBSSN Channel & Live Stats",
+		"metaDescription": "Watch North Dakota State vs. San Jose State on Black Friday, Nov 27, 2026 at 12:30 PM PT / 2:30 PM CT on CBSSN. Full kickoff info, streaming links, and live scoreboard.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-652",
+		"slug": "amazon-black-friday-2026-deals-airpods-pro-3-samsung-oled-stanley-50-percent-off-live",
+		"trendQuery": "amazon",
+		"broadTrends": [
+			"amazon",
+			"amazon black friday 2026 best deals live november 27",
+			"apple airpods pro 3 40 percent off amazon black friday",
+			"stanley quencher 50 percent off samsung galaxy s26 ultra 949",
+			"amazon black friday vs cyber monday 2026 real price history"
+		],
+		"searchVolume": "42.5M+ monthly searches",
+		"category": "Economy & Deals",
+		"categoryTag": "economy",
+		"emojiType": "money",
+		"isBreaking": true,
+		"title": "Amazon Black Friday 2026 Best Deals Live Today: AirPods Pro 3 (40% Off), Stanley Tumblers Half Off & Galaxy S26 Ultra at $949",
+		"shortExcerpt": "Amazon's peak Black Friday 2026 sale is live now through Cyber Monday (Nov 30), led by historic lows on Apple AirPods Pro 3, Samsung OLED TVs, Stanley 40-oz Quenchers, and Blink smart-home bundles—plus how to verify real discounts.",
+		"summary": "Amazon's peak Black Friday 2026 event is officially live on Friday, November 27, with flash doorbusters rolling straight through Cyber Weekend into Cyber Monday on November 30. Standout verified price drops include Apple AirPods Pro 3 at an all-time low (40% off), AirPods Max 2 (24% off), Samsung Galaxy S26 Ultra at $949, Samsung S90H OLED TVs ($500 off), Fire TV Sticks starting around $19, Stanley Quencher H2.0 40-oz tumblers at 50% off (~$20), Ninja Creami makers (23% off), and Blink camera bundles up to 66% off.",
+		"officialLinks": [
+			{
+				"label": "Shop Official Amazon Black Friday Deals",
+				"url": "https://www.amazon.com/blackfriday",
+				"platform": "amazon.com",
+				"badge": "Official Sale Hub",
+				"description": "Browse live Amazon Black Friday doorbusters, Lightning Deals, and Prime exclusives.",
+				"primary": true
+			},
+			{
+				"label": "Amazon Today's Lightning Deals",
+				"url": "https://www.amazon.com/gp/goldbox",
+				"platform": "amazon.com",
+				"badge": "Flash Drops",
+				"description": "Check hourly Black Friday and Cyber Weekend limited-quantity markdowns."
+			},
+			{
+				"label": "Verify Real Price History (CamelCamelCamel)",
+				"url": "https://camelcamelcamel.com/",
+				"platform": "camelcamelcamel.com",
+				"badge": "Price Checker",
+				"description": "Paste any Amazon product link to verify whether today's Black Friday price is a true all-time low."
+			}
+		],
+		"fullArticle": {
+			"lead": "After early sales kicked off November 19, Amazon's deepest 2026 markdowns hit overnight—but consumer watchdogs say checking price history is essential before clicking Buy Now.",
+			"sections": [{
+				"heading": "1. Top Verified Amazon Black Friday 2026 Price Drops",
+				"body": "Tech and viral home essentials lead Amazon's November 27 wave: Apple AirPods Pro 3 dropped to a historic 40% discount alongside 24% off AirPods Max 2, while unlocked Samsung Galaxy S26 Ultra handsets fell to $949. Home entertainment highlights include $500 off Samsung's S90H OLED TV lineup, Fire TV Sticks starting near $19, and up to 60–66% off Blink smart-home security bundles. In kitchen and lifestyle, Stanley Quencher H2.0 40-oz tumblers plunged 50% to around $20, and Ninja Creami makers are marked down roughly 23%."
+			}, {
+				"heading": "2. How to Avoid 'Fake' Black Friday Markdowns Before Cyber Monday",
+				"body": "Recent watchdog analyses (including findings highlighted by the Groundwork Collaborative) warn that some advertised holiday discounts mirror October pricing. Before checking out, paste any Amazon URL into a price-history tracker like CamelCamelCamel to confirm an actual all-time low—and keep an eye on Cyber Monday (November 30), when Amazon rolls out a fresh wave of laptop, tablet, and small-appliance deals."
+			}],
+			"takeaways": [
+				"Apple & Mobile: AirPods Pro 3 at 40% off (record low), AirPods Max 2 (24% off), Samsung Galaxy S26 Ultra at $949.",
+				"TVs & Smart Home: Samsung S90H OLED ($500 off), Fire TV Sticks from ~$19, Blink camera bundles up to 66% off.",
+				"Home & Viral Gifts: Stanley Quencher H2.0 40-oz at 50% off (~$20) and Ninja Creami ~23% off.",
+				"Smart Shopping Tip: Sales run continuously into Cyber Monday (Nov 30)—use price-history tools to verify real lows."
+			],
+			"expertQuote": {
+				"text": "The biggest winners on Amazon this Black Friday are Apple audio, flagship OLED TVs, and Stanley tumblers—where verified price history confirms genuine all-time lows.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:35:00Z",
+		"updatedAt": "2026-11-27T20:35:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["amazon-logistics"],
+		"imageCaption": "Amazon's peak Black Friday 2026 deals are live on November 27 with record lows on AirPods Pro 3, Samsung OLED TVs, and Stanley tumblers.",
+		"metaTitle": "Amazon Black Friday 2026 Deals: AirPods Pro 3, TVs & Stanley 50% Off",
+		"metaDescription": "Shop the best verified Amazon Black Friday 2026 deals live Nov 27: AirPods Pro 3 (40% off), Galaxy S26 Ultra ($949), Stanley Quencher (50% off), and price-check tips.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
+		"id": "trend-2026-651",
+		"slug": "best-buy-black-friday-2026-deals-hours-98-inch-hisense-799-lg-c6-oled-doorbusters",
+		"trendQuery": "best buy",
+		"broadTrends": [
+			"best buy",
+			"best buy black friday 2026 deals hours doorbusters november 27",
+			"best buy 98 inch hisense tv 799 lg c6 oled 1399",
+			"best buy black friday airpods pro 3 gaming laptops macbooks",
+			"best buy store hours near me black friday cyber monday 2026"
+		],
+		"searchVolume": "26.4M+ monthly searches",
+		"category": "Economy & Deals",
+		"categoryTag": "economy",
+		"emojiType": "money",
+		"isBreaking": true,
+		"title": "Best Buy Black Friday 2026 Deals & Store Hours: $799 98-Inch Hisense TV, $1,399 LG C6 OLED & Gaming Doorbusters",
+		"shortExcerpt": "After closing for Thanksgiving, Best Buy reopened early on Black Friday (Nov 27) with massive in-store and online doorbusters—including a 98-inch Hisense TV for $799, LG C6 OLED for $1,399, and 40% off AirPods Pro 3.",
+		"summary": "Best Buy's official Black Friday 2026 event is in full swing on Friday, November 27, with retail locations open early nationwide after closing for Thanksgiving alongside full online availability at BestBuy.com. Headline doorbusters include a massive 98-inch Hisense TV slashed to $799, the LG C6 OLED TV at $1,399, price-matched Apple AirPods Pro 3 at 40% off, and deep cuts on MacBooks, gaming laptops, PlayStation and Nintendo console bundles, and Bose and Sony noise-canceling headphones leading into Cyber Monday (Nov 30).",
+		"officialLinks": [
+			{
+				"label": "Shop Official Best Buy Black Friday Deals",
+				"url": "https://www.bestbuy.com/site/electronics/black-friday/pcmcat225600050002.c",
+				"platform": "bestbuy.com",
+				"badge": "Official Sale Hub",
+				"description": "Shop live Best Buy Black Friday doorbusters with free store pickup and fast shipping.",
+				"primary": true
+			},
+			{
+				"label": "Best Buy Store Locator & Black Friday Hours",
+				"url": "https://www.bestbuy.com/site/store-locator",
+				"platform": "bestbuy.com",
+				"badge": "Local Hours",
+				"description": "Check exact Black Friday opening and closing hours plus in-stock pickup at your nearest Best Buy."
+			},
+			{
+				"label": "Best Buy Deal of the Day",
+				"url": "https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c",
+				"platform": "bestbuy.com",
+				"badge": "24-Hour Drops",
+				"description": "Browse rotating 24-hour flash discounts on laptops, TVs, and smart appliances."
+			}
+		],
+		"fullArticle": {
+			"lead": "Big-screen TVs and gaming rigs are flying off Best Buy's shelves today as the electronics giant rolls out its deepest 2026 holiday discounts both in-store and online.",
+			"sections": [{
+				"heading": "1. Standout Best Buy Black Friday 2026 Doorbusters",
+				"body": "Best Buy's biggest headline-grabber this year is giant-screen value: a 98-inch Hisense TV dropped to an eye-popping $799, while home-theater enthusiasts can grab the LG C6 OLED TV for $1,399. In personal tech and gaming, Best Buy matched Amazon's 40% markdown on Apple AirPods Pro 3 alongside major discounts on Bose and Sony noise-canceling headphones, Apple MacBooks, RTX gaming laptops, and PlayStation and Nintendo holiday console bundles."
+			}, {
+				"heading": "2. Store Hours, Same-Day Pickup & Cyber Monday Transition",
+				"body": "Best Buy stores were closed all day Thursday for Thanksgiving and opened early Friday morning (November 27) with extended holiday shopping hours. Shoppers hoping to skip checkout lines can reserve doorbusters online at BestBuy.com for same-day curbside or in-store pickup, and any items missed today will transition into a fresh wave of Cyber Weekend and Cyber Monday (November 30) discounts."
+			}],
+			"takeaways": [
+				"Headline TV Doorbusters: 98-inch Hisense TV for $799 and LG C6 OLED TV for $1,399.",
+				"Audio & Computing: Apple AirPods Pro 3 (40% off), plus deep cuts on MacBooks, gaming laptops, Bose & Sony headsets.",
+				"Gaming Bundles: Active holiday savings on PlayStation and Nintendo console bundles in-store and online.",
+				"Hours & Pickup: Stores opened early Nov 27 after Thanksgiving closure; online deals continue into Cyber Monday (Nov 30)."
+			],
+			"expertQuote": {
+				"text": "A 98-inch TV under $800 and a flagship LG C6 OLED at $1,399 make Best Buy the undisputed headquarters for home-theater shoppers this Black Friday.",
+				"author": "Daouda Zabsonre",
+				"role": "Senior Editorial Correspondent"
+			}
+		},
+		"publishedAt": "2026-11-27T20:30:00Z",
+		"updatedAt": "2026-11-27T20:30:00Z",
+		"readTime": "4 min read",
+		"imageUrl": ARTICLE_IMAGES["black-friday-shopping"],
+		"imageCaption": "Best Buy Black Friday 2026 deals feature a $799 98-inch Hisense TV, $1,399 LG C6 OLED, and major laptop and gaming discounts.",
+		"metaTitle": "Best Buy Black Friday 2026 Deals & Hours: $799 98\" TV & LG OLED",
+		"metaDescription": "Best Buy Black Friday 2026 deals and store hours live Nov 27: $799 98-inch Hisense TV, $1,399 LG C6 OLED, 40% off AirPods Pro 3, MacBooks, and gaming bundles.",
+		"author": {
+			"name": "Daouda Zabsonre",
+			"role": "Staff Correspondent",
+			"avatar": ARTICLE_IMAGES["daouda-zabsonre"]
+		}
+	},
+	{
 		"id": "trend-2026-650",
 		"slug": "bears-vs-lions-39-35-thanksgiving-2026-caleb-williams-rome-odunze-game-winner-box-score",
 		"trendQuery": "bears vs lions",

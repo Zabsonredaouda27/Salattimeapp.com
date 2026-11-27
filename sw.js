@@ -1,4 +1,4 @@
-const CACHE_NAME = "uvc-cache-mwzi772l";
+const CACHE_NAME = "uvc-cache-mwzjvsn6";
 const CORE_ASSETS = [
   "/",
   "/manifest.webmanifest",
@@ -35,14 +35,14 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  // Network-first for HTML navigations so returning visitors always receive newly published articles
+  // Network-first for HTML navigations (preserving per-page static HTML cache keys)
   if (req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html")) {
     event.respondWith(
       fetch(req)
         .then((res) => {
           if (res && res.status === 200) {
             const copy = res.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put("/", copy)).catch(() => {});
+            caches.open(CACHE_NAME).then((cache) => cache.put(req, copy)).catch(() => {});
           }
           return res;
         })
@@ -51,8 +51,24 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Stale-while-revalidate for static bundles & icons
-  if (/\.(?:js|css|png|jpg|jpeg|svg|ico|webmanifest)$/i.test(url.pathname)) {
+  // Network-first for JS, CSS, and JSON article data so new articles appear immediately
+  if (/\.(?:js|css|json)$/i.test(url.pathname)) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.status === 200) {
+            const copy = res.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(req, copy)).catch(() => {});
+          }
+          return res;
+        })
+        .catch(() => caches.match(req))
+    );
+    return;
+  }
+
+  // Stale-while-revalidate for individual article images (/img/*.jpg) and static icons
+  if (/\.(?:png|jpg|jpeg|webp|svg|ico|webmanifest)$/i.test(url.pathname)) {
     event.respondWith(
       caches.match(req).then((cached) => {
         const net = fetch(req)

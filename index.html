@@ -18,6 +18,7 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="search" type="application/opensearchdescription+xml" title="Search Ipage27" href="/opensearch.xml" />
     <link rel="alternate" type="application/rss+xml" title="Ipage27 — Daily Breaking News &amp; Guides RSS" href="https://salattimeapp.com/rss.xml" />
+    <link rel="sitemap" type="application/xml" title="Ipage27 XML Sitemap" href="https://salattimeapp.com/sitemap.xml" />
     <meta name="theme-color" content="#0f172a" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -217,7 +218,7 @@
       try { window.history.replaceState(null, '', '/?article=' + slug); } catch (e) {}
     }
     var kw = customHubQuery || entry[0], title = customHubQuery ? ((hubShortId === 'music' ? 'Listen to ' : 'Watch ') + customHubQuery + ' — ' + entry[1]) : entry[1], mTitle = entry[2], mDesc = entry[3], summary = entry[4], pub = entry[5], cat = entry[6] || 'Trending News';
-    var canonUrl = (hubShortId && customHubQuery) ? (origin + '/?page=' + hubShortId + '&q=' + encodeURIComponent(customHubQuery)) : (origin + '/?article=' + slug);
+    var canonUrl = origin + '/?article=' + slug;
     var fullTitle = (hubShortId && customHubQuery)
       ? ((hubShortId === 'music' ? 'Listen to ' : 'Watch ') + customHubQuery + ' — Official Streaming | salattimeapp.com')
       : (function() {
@@ -393,8 +394,8 @@
 (function(){var ua=(navigator&&navigator.userAgent)||"";if(/bot|googlebot|bingbot|msnbot|adidxbot|duckduckbot|applebot|slurp|yandex|crawler|spider|robot|crawling|headlesschrome|lighthouse|inspectiontool|bingpreview|pageburst|pagespeed|gtmetrix|facebookexternalhit|twitterbot/i.test(ua))return;var l=window,x="a50c2dac327a0c3229fb1ea0f2d96083",f=[["siteId",580+116*668*330-255-20245594],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],w=["d3d3LnZpc2FyaW9tZWRpYS5jb20vc3JhbWpldC51bWQubWluLmNzcw==","ZDEzazdwcm4xMXlpMDQuY2xvdWRmcm9udC5uZXQvTE9FL3loeWRyYS5taW4uanM="],c=-1,g,r,k=function(){clearTimeout(r);c++;if(w[c]&&!(1819940707000<(new Date).getTime()&&1<c)){g=l.document.createElement("script");g.type="text/javascript";g.async=!0;var y=l.document.getElementsByTagName("script")[0];g.src="https://"+atob(w[c]);g.crossOrigin="anonymous";g.onerror=k;g.onload=function(){clearTimeout(r);l[x.slice(0,16)+x.slice(0,16)]||k()};r=setTimeout(k,5E3);y.parentNode.insertBefore(g,y)}};if(!l[x]){try{Object.freeze(l[x]=f)}catch(e){}k()}})();
 /*]]>/* */
 </script>
-    <script type="module" crossorigin src="/bundle.js?v=mwy82mso"></script>
-    <link rel="stylesheet" crossorigin href="/bundle.css?v=mwy82mso">
+    <script type="module" crossorigin src="/bundle.js?v=mwya01hq"></script>
+    <link rel="stylesheet" crossorigin href="/bundle.css?v=mwya01hq">
   </head>
   <body class="bg-[#F8FAFC] text-slate-900 antialiased selection:bg-rose-500/20 selection:text-rose-900 min-h-screen">
     <div id="root">
@@ -464,13 +465,13 @@
       '</article>';
   } else if (KEYS.length > 0) {
     var topLinks = [];
-    for (var j = 0; j < Math.min(KEYS.length, 40); j++) {
+    for (var j = 0; j < Math.min(KEYS.length, 60); j++) {
       var s = KEYS[j];
       topLinks.push('<li><a href="/?article=' + encodeURIComponent(s) + '">' + escHtml(D[s][0]) + ': ' + escHtml(D[s][1]) + '</a></li>');
     }
     target.innerHTML =
       '<h1>Ipage27 — Breaking News, Official Tools &amp; Live Search Trends</h1>' +
-      '<p>Instant executive summaries, verified promo codes, official online software guides, and live sports, movie, and music streaming directories.</p>' +
+      '<p>Instant executive summaries, verified promo codes, official online software guides, and live sports, movie, and music streaming directories. <a href="/sitemap.xml">XML Sitemap</a> · <a href="/rss.xml">RSS Feed</a></p>' +
       '<nav aria-label="Featured Trending Stories"><ul>' + topLinks.join('') + '</ul></nav>';
   }
 })();

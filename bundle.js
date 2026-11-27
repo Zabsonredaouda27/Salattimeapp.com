@@ -14898,7 +14898,8 @@ function updateStreamingHubSEO(hub, rawQuery = "") {
 	const domainName = typeof window !== "undefined" && window.location.hostname && !window.location.hostname.includes("localhost") ? window.location.hostname : "salattimeapp.com";
 	const baseUrl = typeof window !== "undefined" && window.location.origin && !window.location.origin.includes("localhost") ? window.location.origin : "https://salattimeapp.com";
 	const cleanQ = String(rawQuery || "").trim();
-	const fullUrl = cleanQ ? `${baseUrl}/?page=${hub.id}&q=${encodeURIComponent(cleanQ)}` : `${baseUrl}/?article=${hub.slug}`;
+	const canonicalHubUrl = `${baseUrl}/?article=${hub.slug}`;
+	const fullUrl = cleanQ ? `${baseUrl}/?page=${hub.id}&q=${encodeURIComponent(cleanQ)}` : canonicalHubUrl;
 	const ogImg = `${baseUrl}/og-card.jpg`;
 	const actionWord = hub.id === "music" ? "Listen to" : "Watch";
 	const nounLabel = hub.id === "sport" ? "Live Match & Football Streaming" : hub.id === "movies" ? "Movie Online on Official Streaming Platforms" : "Official Music & Song Streaming";
@@ -14909,7 +14910,7 @@ function updateStreamingHubSEO(hub, rawQuery = "") {
 	setMeta("googlebot", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
 	setMeta("bingbot", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
 	document.title = resolvedTitle;
-	setCanonical(fullUrl);
+	setCanonical(canonicalHubUrl);
 	setMeta("description", resolvedDescription);
 	setMeta("keywords", [
 		cleanQ,
@@ -14918,7 +14919,7 @@ function updateStreamingHubSEO(hub, rawQuery = "") {
 	].filter(Boolean).join(", "));
 	setOgMeta("og:title", resolvedTitle);
 	setOgMeta("og:description", resolvedDescription);
-	setOgMeta("og:url", fullUrl);
+	setOgMeta("og:url", canonicalHubUrl);
 	setOgMeta("og:type", "website");
 	setOgMeta("og:image", ogImg);
 	setOgMeta("og:image:secure_url", ogImg);
@@ -15177,7 +15178,7 @@ var ArticleView = ({ article, onBack, onSelectArticle, allArticles, isSaved = fa
 								children: "/"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: `https://salattimeapp.com/?category=${encodeURIComponent(article.categoryTag || "all")}`,
+								href: "https://salattimeapp.com/",
 								onClick: (e) => {
 									e.preventDefault();
 									onBack();
@@ -15346,62 +15347,6 @@ var ArticleView = ({ article, onBack, onSelectArticle, allArticles, isSaved = fa
 								})
 							]
 						})
-					}),
-					Array.isArray(article.officialLinks) && article.officialLinks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-						"aria-label": `Official Websites for ${article.trendQuery}`,
-						className: "mb-8 p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-white border border-slate-700/90 shadow-xl",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex flex-wrap items-center justify-between gap-2 pb-4 mb-4 border-b border-slate-700/80",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2.5",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-9 h-9 rounded-xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center shrink-0",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "w-5 h-5 text-emerald-400" })
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-[11px] font-extrabold uppercase tracking-wider text-emerald-400",
-									children: "Verified Official Platforms"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-									className: "text-base sm:text-lg font-black text-white leading-snug",
-									children: "Launch Official Website Directly"
-								})] })]
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "text-[11px] font-mono px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 border border-slate-700",
-								children: "Safe Direct Redirect"
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3",
-							children: article.officialLinks.map((item, idx) => {
-								const isPrimary = item.primary || idx === 0;
-								return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: `p-4 rounded-xl border flex flex-col justify-between gap-3.5 transition-all ${isPrimary ? "bg-slate-800/95 border-rose-500/70 shadow-md sm:col-span-2 lg:col-span-1" : "bg-slate-800/70 border-slate-700/80 hover:border-slate-500"}`,
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "space-y-1.5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											className: "flex items-center justify-between gap-2",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "text-[11px] font-mono font-bold text-slate-300 truncate",
-												children: item.platform
-											}), item.badge && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: `text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded shrink-0 ${isPrimary ? "bg-rose-500/20 text-rose-300 border border-rose-500/40" : "bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"}`,
-												children: item.badge
-											})]
-										}), item.description && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-xs text-slate-300 leading-relaxed",
-											children: item.description
-										})]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-										href: item.url,
-										target: "_blank",
-										rel: "noopener noreferrer",
-										className: `w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold transition-all no-underline shadow-xs ${isPrimary ? "bg-rose-600 hover:bg-rose-500 text-white" : "bg-white hover:bg-slate-100 text-slate-900"}`,
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "truncate",
-											children: item.label
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ExternalLink, { className: "w-4 h-4 shrink-0" })]
-									})]
-								}, idx);
-							})
-						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "space-y-4 mb-8",
@@ -15640,28 +15585,6 @@ var ArticleView = ({ article, onBack, onSelectArticle, allArticles, isSaved = fa
 												]
 											})]
 										}),
-										Array.isArray(article.officialLinks) && article.officialLinks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											className: "p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "space-y-1",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-													className: "text-xs font-extrabold uppercase tracking-wider text-emerald-700 flex items-center gap-1.5",
-													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "w-4 h-4 text-emerald-600" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Ready to use the official platform?" })]
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-													className: "text-sm text-slate-700 font-medium",
-													children: "Skip ad-heavy clone sites and go straight to the verified official web tool."
-												})]
-											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "flex flex-wrap items-center gap-2 shrink-0",
-												children: article.officialLinks.slice(0, 2).map((item, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-													href: item.url,
-													target: "_blank",
-													rel: "noopener noreferrer",
-													className: `inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold transition-all no-underline shadow-xs ${idx === 0 ? "bg-rose-600 hover:bg-rose-700 text-white" : "bg-slate-900 hover:bg-slate-800 text-white"}`,
-													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: item.label }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ExternalLink, { className: "w-3.5 h-3.5 shrink-0" })]
-												}, idx))
-											})]
-										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 											className: "pt-6 border-t border-slate-200",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
@@ -15677,6 +15600,62 @@ var ArticleView = ({ article, onBack, onSelectArticle, allArticles, isSaved = fa
 										})
 									]
 								})]
+							})
+						})]
+					}),
+					Array.isArray(article.officialLinks) && article.officialLinks.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+						"aria-label": `Official Websites for ${article.trendQuery}`,
+						className: "mb-8 p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-white border border-slate-700/90 shadow-xl",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-wrap items-center justify-between gap-2 pb-4 mb-4 border-b border-slate-700/80",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2.5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "w-9 h-9 rounded-xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center shrink-0",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "w-5 h-5 text-emerald-400" })
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-[11px] font-extrabold uppercase tracking-wider text-emerald-400",
+									children: "Verified Official Platforms"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+									className: "text-base sm:text-lg font-black text-white leading-snug",
+									children: "Launch Official Website Directly"
+								})] })]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-[11px] font-mono px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 border border-slate-700",
+								children: "Safe Direct Redirect"
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3",
+							children: article.officialLinks.map((item, idx) => {
+								const isPrimary = item.primary || idx === 0;
+								return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: `p-4 rounded-xl border flex flex-col justify-between gap-3.5 transition-all ${isPrimary ? "bg-slate-800/95 border-rose-500/70 shadow-md sm:col-span-2 lg:col-span-1" : "bg-slate-800/70 border-slate-700/80 hover:border-slate-500"}`,
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "space-y-1.5",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center justify-between gap-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[11px] font-mono font-bold text-slate-300 truncate",
+												children: item.platform
+											}), item.badge && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: `text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded shrink-0 ${isPrimary ? "bg-rose-500/20 text-rose-300 border border-rose-500/40" : "bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"}`,
+												children: item.badge
+											})]
+										}), item.description && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+											className: "text-xs text-slate-300 leading-relaxed",
+											children: item.description
+										})]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+										href: item.url,
+										target: "_blank",
+										rel: "noopener noreferrer",
+										className: `w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold transition-all no-underline shadow-xs ${isPrimary ? "bg-rose-600 hover:bg-rose-500 text-white" : "bg-white hover:bg-slate-100 text-slate-900"}`,
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "truncate",
+											children: item.label
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ExternalLink, { className: "w-4 h-4 shrink-0" })]
+									})]
+								}, idx);
 							})
 						})]
 					}),

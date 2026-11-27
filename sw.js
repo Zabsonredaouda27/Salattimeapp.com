@@ -1,4 +1,4 @@
-const CACHE_NAME = "uvc-cache-mwy82mso";
+const CACHE_NAME = "uvc-cache-mwya01hq";
 const CORE_ASSETS = [
   "/",
   "/manifest.webmanifest",

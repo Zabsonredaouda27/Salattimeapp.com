@@ -30,3 +30,6 @@ Sitemap: https://salattimeapp.com/rss.xml
 # Bing & IndexNow Authentication
 # https://salattimeapp.com/b3e856e9a28f480cb914854307ec2901.txt
 
+
+
+

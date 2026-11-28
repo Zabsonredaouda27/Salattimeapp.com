@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, follow" />
+    <title>Ipage27 (salattimeapp.com)</title>
+    <script>
+(function() {
+  var raw = window.location.pathname.replace(/^\/+|\/+$/g, '');
+  var target = '/';
+  if (raw && raw !== 'index.html' && raw !== '404.html') {
+    var low = raw.toLowerCase().replace(/\.html$/i, '');
+    if (low === 'about' || low === 'about-us') target = '/about';
+    else if (low === 'contact' || low === 'contact-us') target = '/contact';
+    else if (low === 'privacy' || low === 'privacy-policy') target = '/privacy-policy';
+    else if (low === 'editorial-standards' || low === 'editorial-policy') target = '/editorial-standards';
+    else if (low === 'author' || low === 'author/daouda-zabsonre' || low === 'author-daouda-zabsonre') target = '/author-daouda-zabsonre';
+    else if (low.indexOf('article/') === 0) target = '/?article=' + encodeURIComponent(raw.slice(8));
+    else target = '/?article=' + encodeURIComponent(raw);
+  }
+  window.location.replace(target);
+})();
+    </script>
+  </head>
+  <body style="min-height:100vh;background:#F8FAFC;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;font-family:system-ui,-apple-system,sans-serif;">
+    <div style="font-size:24px;font-weight:900;"><span style="color:#0F172A;">Ipage</span><span style="color:#E11D48;">27</span></div>
+    <a href="/" style="padding:10px 18px;border-radius:10px;background:#E11D48;color:#FFFFFF;font-weight:700;text-decoration:none;font-size:14px;">Return to Ipage27 Home</a>
+  </body>
+</html>
